@@ -1,0 +1,53 @@
+:root{
+    --color-primary:#ff09 ;
+    --color-secundary: #ffa300 ;
+    --color-title: ;
+    --color-text:#ef33 ;
+    --color-bg:#dede ;
+    --font-title:fresh;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--color-primary);
+}
+
+nav img{
+    margin: 25px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    padding: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-secundary);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--font-title);
+
+}
+
+@font-face {
+    font-family: fresh;
+    src: url(0../fonts/fresh.ttf);
+}

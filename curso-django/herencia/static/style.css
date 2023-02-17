@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+}
+nav{
+    background-color: aquamarine;
+    list-style: repeating-linear-gradient();
+}
+li{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li{
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 20px;
+    min-height: 80vh;
+}
+footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+
+}
